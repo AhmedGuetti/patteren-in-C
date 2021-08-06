@@ -36,7 +36,7 @@ void pattern3(int i){
     for (int j = 0;j < i; j++)
     {
         printf("   ");
-        for (int n = 0; n < i-j; n++)
+        for (int n = 0; n < i-j-1; n++)
             {
                 printf(" ");
             }
@@ -72,10 +72,10 @@ void pattern4(int i){
 
 void pattern5(int i){
 
-    for (int j = 0;j < i; j++)
+    for (int j = 1;j < i; j++)
     {
         printf("   ");
-        for ( int k = 0; k < 2*i-1; k++)
+        for ( int k = 1; k < 2*i-1; k++)
         {
             if(k >= i-(j-1) && k <= i+(j-1)){
                 printf("*");
@@ -92,10 +92,10 @@ void pattern5(int i){
 
 void pattern6(int i){
 
-    for (int j = 0;j < i; j++)
+    for (int j = 1;j < i; j++)
     {
         printf("   ");
-        for ( int k = 0; k < 2*i-1; k++)
+        for ( int k = 1; k < 2*i-1; k++)
         {
             if(2*i-1-k >= i-(j-1)&& 2*i-1-k <=i+(j-1)){
                 printf(" ");
@@ -112,12 +112,12 @@ void pattern6(int i){
 
 void pattern7(int i){
 
-    for (int j = 0;j < i; j++)
+    for (int j = 1;j < i; j++)
     {
         printf("   ");
-        for ( int k = 0; k < 2*i-1; k++)
+        for ( int k = 1; k < 2*i-1; k++)
         {
-            if(k >= i+(j-i+2)&& k <=i-(j-i+2)){
+            if(k >= i+(j-i+1)&& k <=i-(j-i+1)){
                 printf("*");
             }
             else{
@@ -134,10 +134,10 @@ void pattern7(int i){
 
 void pattern8(int i){
     
-    for (int j = 0;j < i; j++)
+    for (int j = 1;j < i; j++)
     {
         printf("   ");
-        for ( int k = 0; k < 2*i-1; k++)
+        for ( int k = 1; k < 2*i-1; k++)
         {
             if(2*i-1-k >= i+(j-i+2)&& 2*i-1-k <=i-(j-i+2)){
                 printf(" ");
