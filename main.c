@@ -4,21 +4,21 @@
 
 int main(){
 
-pattern1(10);
+pattern1(15);
 printf("\n");
-pattern2(10);
+pattern2(15);
 printf("\n");
-pattern3(10);
+pattern3(15);
 printf("\n");
-pattern4(10);
+pattern4(15);
 printf("\n");
-pattern5(10);
+pattern5(15);
 printf("\n");
-pattern6(10);
+pattern6(15);
 printf("\n");
-pattern7(10);
+pattern7(15);
 printf("\n");
-pattern8(10);
+pattern8(15);
 
     return 0;
 }
